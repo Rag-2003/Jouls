@@ -1,0 +1,19 @@
+.main-video-wrap {
+    display: flex;
+    position: relative;
+    width: 100%;
+    background: url(jouls3march2023.mp4);
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+    background: black;
+}
+
+h1.video-text {
+    color: #fff;
+    display: block;
+    position: absolute;
+    top: 40%;
+    left: 4%;
+    font-size: 52px;
+}
