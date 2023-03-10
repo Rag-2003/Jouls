@@ -13,7 +13,49 @@ h1.video-text {
     color: #fff;
     display: block;
     position: absolute;
-    top: 40%;
+    top: 11%;
     left: 4%;
-    font-size: 52px;
+    font-size: 65px;
+    text-align: left;
+    width: 100%;
+    max-width: 450px;
+}
+
+p.video-text-sub {
+    font-family: inherit;
+    color: inherit;
+}
+
+section.top-actions {
+    display: flex;
+    z-index: 10000;
+    position: fixed;
+    background: #242424;
+    width: 100%;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+btn-tp {
+    display: inline-block;
+    font-size: 16px;
+    color: white;
+    background: #118615;
+    padding: 10px 15px;
+    border-radius: 15px;
+    cursor: pointer;
+    margin-right: 25px;
+}
+
+h2.top-from-heading {
+    color: white;
+    position: absolute;
+    left: 25px;
+}
+
+@media only screen and (max-width: 600px) {
+    h2.top-from-heading {
+        top: 10px;
+        right: 5px;
+    }
 }
