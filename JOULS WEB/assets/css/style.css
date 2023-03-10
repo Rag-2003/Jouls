@@ -192,7 +192,7 @@ h6 {
   border-radius: 50px;
   color: #fff;
   font-size: 14px;
-  border: 2px solid #47b2e4;
+  border: 2px solid #118615;
   font-weight: 600;
 }
 
@@ -343,7 +343,7 @@ h6 {
 .navbar-mobile .getstarted,
 .navbar-mobile .getstarted:focus {
   margin: 15px;
-  color: #37517e;
+  color: #080808;
 }
 
 .navbar-mobile .dropdown ul {
@@ -1803,7 +1803,7 @@ section {
 #footer .footer-top .social-links a {
   font-size: 18px;
   display: inline-block;
-  background: #47b2e4;
+  background: #118615;
   color: #fff;
   line-height: 1;
   padding: 8px 0;
@@ -1891,13 +1891,17 @@ h2.app-heading {
   background: #47b2e4;
 
 }
-h1.video-text {
-  color: #fff;
-  display: block;
-  position: absolute;
-  top: 40%;
-  left: 4%;
+
+  h1.video-text {
+    display: block;
+    position: absolute;
+    top: 40%;
+    left: -7%;
+    font-size: 3.125rem;
+    margin-top: 0;
+    margin-bottom: 2rem;
 }
+
 
 html {
   overflow-x: hidden;
