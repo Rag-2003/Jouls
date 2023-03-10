@@ -898,9 +898,9 @@ section {
 # Cta
 --------------------------------------------------------------*/
 .cta {
-  background: linear-gradient(rgba(40, 58, 90, 0.9), rgba(40, 58, 90, 0.9)), url("../img/jouls\ charger\ .jpg") fixed center center;
+  background: linear-gradient(rgba(26, 27, 28, 0.947), rgba(26, 27, 28, 0.947)), url("../img/front\ bg.123.jpg") fixed center center;
   background-size: cover;
-  padding: 120px 0;
+  padding: 120px ;
 }
 
 .cta h3 {
@@ -1425,7 +1425,7 @@ section {
 
 .contact .info i {
   font-size: 20px;
-  color: #47b2e4;
+  color: #060707;
   float: left;
   width: 44px;
   height: 44px;
@@ -1442,8 +1442,19 @@ section {
   font-size: 22px;
   font-weight: 600;
   margin-bottom: 5px;
-  color: #37517e;
+  color: #0b0c0e;
 }
+.contact .info h5 {
+  padding: 0 0 0 60px;
+  font-size: 22px;
+  font-weight: 600;
+  margin-bottom: 5px;
+  color: #0b0c0e;
+}
+
+
+
+
 
 .contact .info p {
   padding: 0 0 10px 60px;
@@ -1483,7 +1494,7 @@ section {
 .contact .info .email:hover i,
 .contact .info .address:hover i,
 .contact .info .phone:hover i {
-  background: #47b2e4;
+  background: #118615;
   color: #fff;
 }
 
@@ -1580,7 +1591,7 @@ section {
 }
 
 .contact .php-email-form button[type=submit] {
-  background: #47b2e4;
+  background: #050606;
   border: 0;
   padding: 12px 34px;
   color: #fff;
@@ -1589,7 +1600,7 @@ section {
 }
 
 .contact .php-email-form button[type=submit]:hover {
-  background: #209dd8;
+  background: #118615;
 }
 
 @-webkit-keyframes animate-loading {
@@ -1745,7 +1756,7 @@ section {
 #footer .footer-top h4 {
   font-size: 16px;
   font-weight: bold;
-  color: #37517e;
+  color: #090909;
   position: relative;
   padding-bottom: 12px;
 }
