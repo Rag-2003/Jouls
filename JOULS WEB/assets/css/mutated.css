@@ -25,6 +25,19 @@ p.video-text-sub {
     font-family: inherit;
     color: inherit;
 }
+p.video-text-sub2 {
+    color:inherit;
+    font-family: inherit;
+    color:white;
+    --tw-text-opacity: 1;
+    font-size: 0.8rem;
+    font-weight: 400;
+    line-height: 1.5rem;
+    line-height: 1.45;
+    margin-bottom: 1.875rem;
+    margin-top: 1.475rem;
+
+}
 
 section.top-actions {
     display: flex;
@@ -58,4 +71,6 @@ h2.top-from-heading {
         top: 10px;
         right: 5px;
     }
+    
+   
 }

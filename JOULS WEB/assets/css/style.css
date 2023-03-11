@@ -1238,7 +1238,7 @@ section {
 }
 
 .pricing h4 span {
-  color: #47b2e4;
+  color: #118615;
   font-size: 18px;
   display: block;
 }
@@ -1280,26 +1280,26 @@ section {
   display: inline-block;
   padding: 12px 35px;
   border-radius: 50px;
-  color: #47b2e4;
+  color: #118615;
   transition: none;
   font-size: 16px;
   font-weight: 500;
   font-family: "Jost", sans-serif;
   transition: 0.3s;
-  border: 1px solid #47b2e4;
+  border: 1px solid #118615;
 }
 
 .pricing .buy-btn:hover {
-  background: #47b2e4;
+  background: #118615;
   color: #fff;
 }
 
 .pricing .featured {
-  border-top-color: #47b2e4;
+  border-top-color: #118615;
 }
 
 .pricing .featured .buy-btn {
-  background: #47b2e4;
+  background: #118615;
   color: #fff;
 }
 
@@ -1460,7 +1460,7 @@ section {
   padding: 0 0 10px 60px;
   margin-bottom: 20px;
   font-size: 14px;
-  color: #6182ba;
+  color: #0b0c0e;
 }
 
 .contact .info .email p {
@@ -1906,12 +1906,13 @@ h2.app-heading {
     --tw-text-opacity: 1;
     color: rgb(90 90 90/var(--tw-text-opacity));
     font-family: Nunito Sans,serif;
-    font-size: 1rem;
+    font-size: 0.8rem;
     font-weight: 400;
     line-height: 1.5rem;
     line-height: 1.45;
     margin-bottom: 1.875rem;
     margin-top: 1.875rem;
+    color:white
 }
 
 div[id^=block-page-hero-block-] .main-content p {
