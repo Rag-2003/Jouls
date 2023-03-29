@@ -13,7 +13,7 @@ h1.video-text {
     color: #fff;
     display: block;
     position: absolute;
-    top: 11%;
+    top: 19%;
     left: 4%;
     font-size: 65px;
     text-align: left;
@@ -73,4 +73,125 @@ h2.top-from-heading {
     }
     
    
+}
+
+.main-video-wrap {
+    display: flex;
+    position: relative;
+    width: 100%;
+    background: url(jouls3march2023.mp4);
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+    background: black;
+}
+
+h1.video-text {
+    color: #fff;
+    display: block;
+    position: absolute;
+    top: 30%;
+    left: 4%;
+    font-size: 80px;
+    text-align: left;
+    width: 100%;
+    max-width: 450px;
+}
+
+p.video-text-sub {
+    font-family: aleo;
+    color: inherit;
+}
+
+section.top-actions {
+    display: flex;
+    z-index: 10000;
+    position: fixed;
+    background: #242424;
+    width: 100%;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+btn-tp {
+    display: inline-block;
+    font-size: 16px;
+    color: white;
+    background: #118615;
+    padding: 10px 15px;
+    border-radius: 15px;
+    cursor: pointer;
+    margin-right: 25px;
+}
+
+h2.top-from-heading {
+    color: white;
+    position: absolute;
+    left: 25px;
+}
+
+@media only screen and (max-width: 600px) {
+    h2.top-from-heading {
+        top: 10px;
+        right: 5px;
+    }
+    h1.video-text {
+        color: rgb(255, 255, 255);
+        display: block;
+        position: absolute;
+        top: 44%;
+        left: 4%;
+        font-size: 60px;
+        text-align: left;
+        width: 95%;
+        max-width: 450px;
+    }
+}
+
+.col-lg-6 {
+    flex: 0 0 auto;
+    width: 100%;
+    text-align: center;
+}
+::-webkit-scrollbar-thumb {
+    background: #118615;
+    border-radius: 10px;
+}
+::-webkit-scrollbar-thumb:hover {
+    background: #105312;
+    border-radius: 10px;
+}
+
+.paragraph, p {
+    --tw-text-opacity: 1;
+    color: rgb(90 90 90/var(--tw-text-opacity));
+    font-family: sans-serif,serif;
+    font-size: 0.8rem;
+    font-weight: 400;
+    line-height: 1.5rem;
+    line-height: 1.45;
+    margin-bottom: 1.875rem;
+    margin-top: 1.875rem;
+    color: white;
+}
+.ntactive {
+    top: 180px;
+}
+.fixed-top {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+}
+.sudobody {
+    position: fixed;
+    display: block;
+    top: 185px;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+}
+h1.video-text {
+    font-family: sans-serif;
 }
