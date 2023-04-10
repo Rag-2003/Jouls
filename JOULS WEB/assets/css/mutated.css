@@ -145,6 +145,7 @@ h2.top-from-heading {
         text-align: left;
         width: 95%;
         max-width: 450px;
+        align-items: center;
     }
 }
 
