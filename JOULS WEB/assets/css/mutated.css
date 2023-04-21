@@ -173,7 +173,7 @@ h2.top-from-heading {
     line-height: 1.45;
     margin-bottom: 1.875rem;
     margin-top: 1.875rem;
-    color: rgb(8, 7, 7);
+    color: rgb(245, 240, 240);
 }
 .ntactive {
     top: 180px;
@@ -195,4 +195,10 @@ h2.top-from-heading {
 }
 h1.video-text {
     font-family: sans-serif;
+}
+.faq section-bg {
+    color: black;
+}
+.pfaqc{
+    color:#000
 }

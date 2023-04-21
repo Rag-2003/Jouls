@@ -1336,7 +1336,9 @@ section {
     margin: 0 auto 30px auto;
   }
 }
-
+.pfaqc{
+  color:#000
+}
 /*--------------------------------------------------------------
 # Frequently Asked Questions
 --------------------------------------------------------------*/
@@ -1398,12 +1400,12 @@ section {
 }
 
 .faq .faq-list a.collapsed {
-  color: #37517e;
+  color: #0b0d0f;
   transition: 0.3s;
 }
 
 .faq .faq-list a.collapsed:hover {
-  color: #47b2e4;
+  color: #090a0a;
 }
 
 .faq .faq-list a.collapsed .icon-show {
@@ -1924,7 +1926,7 @@ h2.app-heading {
     line-height: 1.45;
     margin-bottom: 1.875rem;
     margin-top: 1.875rem;
-    color:rgb(11, 10, 10)
+    color:white;
 }
 
 div[id^=block-page-hero-block-] .main-content p {
