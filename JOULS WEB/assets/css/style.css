@@ -570,6 +570,7 @@ section {
 
 .section-title p {
   margin-bottom: 0;
+  color:#000
 }
 
 /*--------------------------------------------------------------
@@ -1263,6 +1264,7 @@ section {
 .pricing ul li {
   padding: 10px 0 10px 30px;
   position: relative;
+  color:#010307
 }
 
 .pricing ul i {
